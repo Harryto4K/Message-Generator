@@ -1,17 +1,22 @@
-// variable that contains all the messages
-const messages= [
-    'The sun will shine for you today', 
-    'You will accomplish big things today',
-    'Today is not your day',
-    'Today will be one of your best days',
-    'You will have a nice day'
-]
+function random() {
+    //variable that contains the words
+    const words = [
+        'lucky',
+        'good',
+        'bad',
+        'stupid',
+        'horrible',
+        'normal'
+    ]
 
+    //variable that contains the messages
+    let message = [
+        `You will have a ${words[Math.floor(Math.random() * words.length)]} day`,
+        `You will not have a ${words[Math.floor(Math.random() * words.length)]} day`
+    ]
 
-//function that will select a random message
-function randomMessage(message) {
-    return message[Math.floor(Math.random() * messages.length)]; 
+    return message[Math.floor(Math.random() * message.length)]; 
 }
 
-//This will log to the console the message.
-console.log(randomMessage(messages)); 
+
+console.log(random());
