@@ -1,6 +1,8 @@
 # Message Generator 
 
 This message generator is based on an horoscope 
+==================
+
 
 ## Objective
 
@@ -10,9 +12,9 @@ The objective of this project was to code a message generator based on an horosc
 
 The 3 types of data are: 
 
-> * Words
-> * Time 
-> * Message
+  * Words
+  * Time 
+  * Message
 
 ### Words
 The words variable is an array composed of words that describe the day or night you will have. 
@@ -25,7 +27,9 @@ The time is an array of two words that will stablish the time of the message (da
 ### Message 
 The message is the last piece of data and combines the two pieces of data to form a message. 
 
-* The final message is decided with a Math.random on the message variable. 
+
+* **_The final message is decided with a Math.random on the message variable._**
+
 
 > I hope you like my little project and feel free to submit any pull requests to fix potential bugs or expand the functionality <3 
 
