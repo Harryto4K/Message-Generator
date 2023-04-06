@@ -1,7 +1,6 @@
-Message Generator 
+# Message Generator 
 
-This message generator is based on an horoscope 
-==================
+This message generator is based on an horoscope.
 
 
 ## Objective
